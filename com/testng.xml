@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name=   "Search Suite">
+	<parameter لname = "broswer" value = "edge"></parameter>
+  <test name="Test">
+    <classes>
+      <class name="tests.SearchTestWithcsv"/>
+    </classes>
+  </test> 
+</suite> 

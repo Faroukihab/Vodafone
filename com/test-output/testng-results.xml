@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-21T02:17:18 EET" name="Default suite" finished-at="2024-03-21T02:17:24 EET" duration-ms="6453">
+    <groups>
+    </groups>
+    <test started-at="2024-03-21T02:17:18 EET" name="Default test" finished-at="2024-03-21T02:17:24 EET" duration-ms="6453">
+      <class name="tests.SearchTestWithcsv">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:tests.SearchTestWithcsv@7b36aa0c]" started-at="2024-03-21T02:17:10 EET" name="startDriver" finished-at="2024-03-21T02:17:18 EET" duration-ms="7681" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="Search()[pri:0, instance:tests.SearchTestWithcsv@7b36aa0c]" started-at="2024-03-21T02:17:18 EET" name="Search" finished-at="2024-03-21T02:17:23 EET" duration-ms="5113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search -->
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.SearchTestWithcsv@7b36aa0c]" started-at="2024-03-21T02:17:23 EET" name="captureScreenshotOnFailure" finished-at="2024-03-21T02:17:23 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Search status=SUCCESS method=SearchTestWithcsv.Search()[pri:0, instance:tests.SearchTestWithcsv@7b36aa0c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOnFailure -->
+        <test-method is-config="true" signature="stopDriver()[pri:0, instance:tests.SearchTestWithcsv@7b36aa0c]" started-at="2024-03-21T02:17:23 EET" name="stopDriver" finished-at="2024-03-21T02:17:24 EET" duration-ms="1297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+      </class> <!-- tests.SearchTestWithcsv -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
